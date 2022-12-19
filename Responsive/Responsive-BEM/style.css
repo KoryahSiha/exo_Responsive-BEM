@@ -1,0 +1,262 @@
+body {
+    /* width: 428px; */
+    font-family: Roboto, arial, 'sans serif';
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav__entete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #6d009c;
+    color: white;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.nav__icon {
+    width: 45px;
+    height: 45px;
+    background: url(slice.png);
+    background-repeat: no-repeat;
+}
+
+.nav__titre {
+    font-family: 'Comic Sans MS';
+}
+
+.nav__lien {
+    background-color: white;
+    list-style: none;
+    line-height: 1.5em;
+    font-size: 19px;
+}
+
+.nav__lien a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.header {
+    height: 550px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.35) 100%), url("agence_graphisme.jpeg"); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__texticon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 260px;
+    height: 80px;
+    background: #6d009c;
+}
+
+.header__icon {
+    width: 45px;
+    height: 45px;
+    background: url(slice.png);
+    background-repeat: no-repeat;
+}
+
+.header__text {
+    font-family: 'Comic Sans MS';
+    font-size: 16px;
+    font-style: italic;
+}
+
+.header__titre {
+    height: 42px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+
+
+nav, header, main {
+    font-weight: 400;
+}
+
+
+
+main {
+    text-align: center;
+    margin: 50px;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.article {
+    margin: 0 auto;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.articles h2 {
+    height: 210px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.article__icon {
+    text-align: center;
+}
+
+.article__titre {
+    height: 35px;
+    font-size: 26px;
+}
+
+.article__text {
+    height: 120px;
+    font-size: 16px;
+}
+
+.article__quote {
+    height: 230px;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.article__quoteref {
+    height: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+.footer {
+    height: 460px;
+    font-weight: 700;
+    background-color: #6d009c;
+    color: white;
+}
+
+.footer__p {
+    text-align: center;
+    padding: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__reseaux {
+    height: 36px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__titre {
+    margin: 20px;
+    font-size: 15px;
+}
+
+.footer__titre {
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__lien {
+    margin-left: 30px;
+}
+
+.footer__adresse {
+    list-style-type: none;
+}
+
+
+
+
+
+
+@media screen and (min-width: 830px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav__entete,
+    .nav__lien {
+        width: 410px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .nav__icon2 {
+        visibility: hidden;
+    }
+
+    .articles__container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .footer {
+        height: 270px;
+    }
+
+    .footer__reseaux {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .footer__acces {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
+
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .articles-container {
+        margin: 0 auto;
+        max-width: 1440px;   
+    }
+}
