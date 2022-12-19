@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <title>Maquette figma en responsive et méthode BEM</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__entete">
+            <i class="nav__icon"></i>
+            <p class="nav__titre">Mon petit graphisme</p>
+            <div class="nav__icon2"><i class="fa-solid fa-bars fa-lg"></i></div>
+        </div>
+
+        <div>
+            <ul class="nav__lien">
+                <li><a class="nav__accueil" href="">Accueil</a></li>
+                <li><a class="nav__contact" href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header">
+            <div class="header__texticon">
+                <i class="header__icon"></i>
+                <p class="header__text">Mon petit graphisme</p>
+            </div>
+            <h1 class="header__titre">Agence de graphisme</h1>
+    </header>
+
+    <main>
+        <div class="articles">
+
+            <h2>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.
+            </h2>
+
+            <div class="articles__container">
+                <article class="article">
+                    <i class="fa-regular fa-pen-to-square fa-4x"></i>
+                    <h3 class="article__titre">Graphisme</h3>
+                    <p class="article__text">Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou
+                        des affiches, nous réalisons des visuels dont vous serez fiers.</p>
+                </article>
+
+
+                <article class="article">
+                    <i class="fa-solid fa-clipboard-list fa-4x"></i>
+                    <h3 class="article__titre">Stratégie</h3>
+                    <p class="article__text">Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de
+                        comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
+                </article>
+
+                <article class="article">
+                    <i class="fa-regular fa-image fa-4x"></i>
+                    <h3 class="article__titre">Illustrations</h3>
+                    <p class="article__text">Nos graphistes vous proposerons des illustrations 100 % originales.</p>
+                </article>
+            </div>
+
+            <q class="article__quote">Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à
+                l’écoute des besoins et m’ont permis de renouveler complétement la carte de mon restaurant.</q>
+            <p class="article__quoteref">Amandine, restauratrice</p>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <p class="footer__p">Mon petit graphisme - Agence de graphisme basée à Paris</p>
+
+        <div class="footer__reseaux">
+            <div class="footer__twitter"><a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a></div>
+            <div class="footer__facebook"><a href="#"><i class="fa-brands fa-facebook-f fa-2x"></i></a></div>
+            <div class="footer__insta"><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></div>
+        </div>
+        <div class="footer__acces">
+            <div class="footer__liens">
+                <p class="footer__titre">Accès rapide</p>
+                <ul class="footer__lien">
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__liens">
+                <p class="footer__titre">À propos</p>
+                <ul class="footer__lien">
+                    <li><a href="">Données personnelles</a></li>
+                    <li><a href="">Mentions légales</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__liens">
+                <p class="footer__titre">Coordonnées</p>
+                <ul class="footer__lien">
+                    <li>10 Quai de la Charente</li>
+                    <li>75019 Paris</li>
+                    <li>10 Quai de la Charente</li>
+                </ul>
+        </div>
+    </div>
+
+
+    </footer>
+</body>
+
+</html>
